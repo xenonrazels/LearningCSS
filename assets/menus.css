@@ -20,9 +20,7 @@ nav ul{
 	margin:0px;
 	padding: 0px;
 }
-nav > ul> li{
-	float: left;
-}
+
 nav ul::after{
 	content: "";
 	display: block;
@@ -57,6 +55,18 @@ nav ul ul ul{
 	top:10px;
 
 }
+/* top level */
+nav>ul{
+	padding-left: 35px;
+}
+nav > ul> li{
+	float: left;
+}
+nav>ul>li>a{
+	padding:10px 20px;
+	width: auto;
+}
+
 @media screen and (max-width: 750px) {
 	
 	header a.logo { width: 120px; height: 44px; }
