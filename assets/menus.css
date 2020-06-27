@@ -28,16 +28,27 @@ nav ul::after{
 	display: block;
 	clear: both;
 }
-nav li a{
+nav ul li a{
 	display: inline-block;
 	color:#fff;
 	padding:10px 20px;
 	width:125px;
 }
-nav li a:hover{
+nav ul li a:hover{
 	background-color:#339999 ;
 }
-
+nav ul ul{
+	display: none;
+	position: absolute;
+	background-color: rgba(0,102,102,.8);
+	top: 100%;
+}
+nav li:hover>ul{
+	display: block;
+}
+nav li:hover{
+	background-color: #076d6f;
+}
 @media screen and (max-width: 750px) {
 	
 	header a.logo { width: 120px; height: 44px; }
