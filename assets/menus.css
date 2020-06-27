@@ -4,7 +4,8 @@ h3 { margin: 0px 0px 1.5em 0px; color: #339999; font-size: 1.1em; font-weight: n
 a { color: #00a2ff; text-decoration: none; }
 
 header { height:auto; background: #eee url(annapurna.jpg) no-repeat center; background-size:cover; margin-bottom: 50px; position: relative; }
-header a.logo { position: absolute; display: block; width: 154px; height: 57px; background: url(logo.png) no-repeat 0 0; background-size: contain; z-index: 1; top: 15px; left: 20px; }
+header a.logo { position: absolute; display: block; width: 154px; height: 57px; background: rgba(238, 238, 238, 0.692) url(cc.png) no-repeat 0 0; background-size: contain; z-index: 1; top: 15px; left: 20px;
+border-radius: 1em; }
 header a.logo span { display: none; }
 
 article { width: 70%; float: left; margin-bottom: 75px; }
@@ -12,7 +13,7 @@ article div { padding: 0px 40px 0px 40px; border-right: 1px solid #555; }
 aside { width: 30%; float: left; }
 aside div { padding: 0px 40px 0px 40px; }
 
-nav { background-color: rgba(0,0,0,0.6); position: relative; padding: 45px 0px 0px 180px; }
+nav { background-color: rgba(46, 42, 42, 0.8); position: relative; padding: 45px 0px 0px 180px; }
 
 /* Add menu rules here */
 nav ul{
